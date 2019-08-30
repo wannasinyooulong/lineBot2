@@ -24,7 +24,7 @@ def callback():
     userText = decoded['queryResult']['intent']['message']['displayName']
     #sendText(user,userText)
     if (userText == 'สวัสดี') :
-        print('อืม*////*')
+        sendText(user,'อืม*////*')
     elif (userText == 'กลับก่อนนะ') :
         sendText(user,'ไปดีมาดีน้าาาา')
     return '',200
